@@ -1,3 +1,4 @@
+print("ACTIVITY_B);
 print("First Row")
 for x in range(8):
     print(2**x, end = '\t')
