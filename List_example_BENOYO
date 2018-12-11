@@ -1,0 +1,16 @@
+print("Iteration of List")
+Carbrands = ("Honda", "Nissan", "Mitsubishi")
+for x in Carbrands:
+    print(x)
+print("**********")
+Carmodels = ("Civic", "GTR", "LancerEVO")
+for x in Carmodels:
+    print(x)
+print("**********")
+CarTopSpeed = ("289km/h", "333km/h", "300km/h")
+for x in CarTopSpeed:
+    print(x)
+print("**********")
+CarEngineType = ("In-Line 4-Cylinder with Single-Scroll Turbocharger", "3.8-liter DOHC 24-valve twin-turbocharged V6", "turbocharged and intercooled DOHC 16-valve inline-4, aluminum block and head, port fuel injection")
+for x in CarEngineType:
+    print(x)
