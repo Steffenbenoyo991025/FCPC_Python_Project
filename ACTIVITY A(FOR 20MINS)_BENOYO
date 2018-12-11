@@ -1,0 +1,31 @@
+#Variables
+#Conditionals
+#OPERATORS
+#Loops
+value1=80
+value2=90
+value3= value1+value2
+print(value3)
+
+Honda="Fboi"
+Toyota="Grade11"
+Mazda="Mazdaks"
+print("1.Honda")
+print("2.Toyota")
+print("3.Mazda")
+select=input("select ")
+if select=="1":
+    print(Honda)
+elif select=="2":
+    print(Toyota)
+elif select=="3":
+    print(Mazda)
+else:
+    print("invalid choice")
+
+#LOOPS
+# Prints the numbers 0,1,2,3,4
+    for x in range(5):
+        print(x)
+
+
