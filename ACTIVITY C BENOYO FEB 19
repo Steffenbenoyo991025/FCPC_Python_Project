@@ -1,0 +1,14 @@
+swearWords = ['inutil','bobo','gago','putangina','ulol', 'puta',]
+userInput = input("Enter a word: ")
+splitword = userInput.split()
+hasdetected = False
+for word in splitword:
+    for swear in swearWords:
+        if word.find(swear) >-1:
+            print("*"*len(swear),end=" ")
+            hasdetected = True
+            break
+        else:
+            hasdetected = False
+    if not hasdetected:
+        print(word,end=" ")
