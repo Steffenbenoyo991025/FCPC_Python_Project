@@ -1,0 +1,18 @@
+text = "Benoyo Mharck Steffen."
+
+a = text.capitalize()
+
+print(a)
+
+
+txt = "MSLB"
+
+b = txt.isalpha()
+
+print(b)
+
+txt = "Good day my friend"
+
+c = txt.isprintable()
+
+print(c).0
